@@ -175,27 +175,3 @@
 //     console.log(i)
 // }while(i>10)
 // c
-
-// var user = ["mohamed",30,"giza"]
-// var user = {name:"mohamed",age:30,address:"giza"}
-// console.log(user.address)
-
-// task 1
-var ip = "123.554.11.1"
-//  123/554/11/1
-
-
-// task 2
-
-var plus18 = ["mohamed","amr"]
-var str = "hi my name is mohamed amr"
-// "hi my name is ......"
-
-
-// task 3
-
-var rech = [
-    [123,213,4,5],
-    [233,44,566], 
-    [6,7434,1133] 
-]
