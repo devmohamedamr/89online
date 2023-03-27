@@ -1,124 +1,58 @@
-// two sum
+// var colors = ["Red","green","blue"]
 
-// var numbers = [1,4,2,3]
 
-// var i=0
-// while(i<numbers.length){
-//     if(numbers[i] + numbers[i+1] == 6){
-//         console.log(numbers[i] , numbers[i+1])
-//     }
-//     i = i+1
+// var x;
+// while(x = colors.pop()){
+//     console.log(x)
+// }
+
+// for(;x = colors.pop();){
+//     console.log(x)
 // }
 
 
-// var numbers = [1,3,2,4]
-// var i =0
-// while(i<numbers.length){
+// console.log(colors)
 
-//     var x = 0
-//     while(x<numbers.length){
-//         if(numbers[i] + numbers[x] == 6){
-//             console.log(numbers[i] , numbers[x])
-//         }
-//         x = x+1
-//     }
-
-//     i = i+1
-// }
+// colors.push("yellow")
+// var x = colors.pop()
+// console.log(x)
+// console.log(colors)
+// 
+// functions
+// dry
 
 
-
-// var userrow = prompt("row ? ")
-// var usercolumns = prompt("columns  ? ")
-
-// document.write("<table >")
-// var row = 1
-// while(row<=userrow){
-//     document.write("<tr>")
-//      var column = 1
-//      while(column<=usercolumns){
-//         if((column+row)%2 == 0){
-//             document.write("<td bgcolor='black' width=100px height=100px></td>")
-//         }else{
-//             document.write("<td width=100px height=100px></td>")
-//         }
-//         column = column+1
-//      }   
-//     document.write("</tr>")
-//     row = row+1
-// }
-
-// document.write("</table>")
-
-// switch()
+// function hi ()
 // {
-
+//     console.log("-------------")
+//     console.log("hi amit")
+//     console.log("-------------")
 // }
 
 
-// var age = 20
-// if(age == 10){
-//     console.log("age is 10")
-// } else if (age == 15)
+
+
+// hi()
+// hi()
+// hi()
+
+
+
+
+
+
+// function sayhi(name)
 // {
-//     console.log("age is 15")
-// } else if (age == 20)
-// {
-//     console.log("age is 20")
-// }else {
-//     console.log("error")
+//     console.log("hi  ya "+name)
 // }
 
+// sayhi("eslam")
+// sayhi("mohamed")
+// sayhi("radwa")
+// sayhi()
 
 
-// var age =30
-// switch(age)
-// {
-//     case 10:
-//         console.log("10")
-//     break 
-//     case 15:
-//         console.log("15")
-//     break   
-//     case 20:
-//         console.log("20")
-//     break
-//     default :
-//     console.log("error")
-// }
-
-
-
-// var oil = prompt("oil ?")
-// var l = prompt("l ?")
-
-
-
-// switch(oil){
-//     case 80:
-//        console.log(l*2)
-//     break
-//     case 90:
-//         console.log(l*3) 
-//     break
-//     case 92:
-//         console.log(l*5)
-//     break
-//     default:
-//         console.log("error")
-// }
-
-
-// if(oil == 80){
-//     console.log(l*2)
-// }else if (oil == 90){
-//     console.log(l*4)
-// }
-// else if (oil == 92){
-//     console.log(l*6)
-// }else {
-//     console.log("error")
-// }
+// void , return 
 
 
 
@@ -126,52 +60,78 @@
 
 
 
-
-
-// ? :
-
-
-// 0 male
-// 1 female
-
-// var gender = 0
-// if(gender == 1){
-//     console.log("female")
-// }else{
-//     console.log("male") 
-// }
-// var msg = (gender ==1) ? "female" : "male"
-// console.log( (gender ==1) ? "female" : "male")
-
-
-// var i= 10
-
-// console.log(i--)
-
-
-// for(var i=0;i<10;i++){
-//     console.log(i)
-// }
-
-
-
-// var numbers  = [1,34,123,45,111]
-// console.log( numbers[numbers.length-1])
-// var max = numbers[0]
-// for(var i=0;i<numbers.length;i++){
-//     // 111>123
-//     // max = 123
-//     if(numbers[i] > max){
-//         max = numbers[i]
+// function loop(x){
+//     for(var i =0;i<x.length;i++){
+//         console.log(x[i])
 //     }
 // }
 
-// console.log(max)
 
 
-// var i =0
-// do {
-//     i++
-//     console.log(i)
-// }while(i>10)
-// c
+// var colors = ["red","green"]
+// var users = ["mohamed","ahmed","eslam"]
+
+
+// loop(colors)
+// loop(users)
+
+
+
+
+
+//  function salary(s)
+// {
+//     return s-100
+// }
+// var salary = function(s)
+// {
+//     return s-100
+// }
+// salary(1000)
+// console.log(salary(1000) + 50)
+//              900 + 50
+// console.log( salary(1000) + 50 )
+
+
+
+
+
+
+
+
+// document
+
+// console.log( document )
+
+
+// =================== show and hide ==================
+// var PasswordInput = document.getElementById("password")
+// var BtnShow = document.getElementById("show")
+
+// BtnShow.onclick = function(){
+//     if(PasswordInput.type == "password"){
+//         PasswordInput.type = "text"
+//         BtnShow.innerText = "hide"
+//     }else{
+//         PasswordInput.type = "password"
+//         BtnShow.innerText = "show"  
+//     }
+// }
+
+
+// var x = document.getElementById("x")
+// var y = document.getElementById("y")
+// var btn = document.getElementById("btn")
+// var res = document.getElementById("res")
+
+
+// btn.onclick = function (){
+//     var number1 = parseInt(x.value)
+//     var number2 = parseInt(y.value)
+//     var sum = number1 + number2
+//     res.innerText = "result is : "+sum
+//     x.value = ""
+//     y.value = ""
+// }
+
+
