@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Cairo:wght@500&display=swap');
+:root{
+    --font:'Alata', sans-serif;
+    --second-font:'Alata', sans-serif;
+
+    --color:red;
+    --dark:black;
+    --light:gray;
+}
+body{
+    font-family: var(--font);
+}
+
+/* @media (min-width:700px) and (max-width:900px) {
+    body {
+        background: red;
+    }
+}
+
+@media (min-width:500px) and (max-width:700px) {
+    body {
+        background: green;
+    }
+} */
+
+
+.container{
+    width: 90%;
+    height: 300px;
+    background: gold;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item{
+    background: gray;
+    width: 22%;
+    height: 100%;
+}
+
+
+@media (min-width:600px) and (max-width:900px) {
+    .item{
+        background: gray;
+        width: 45%;
+        height: 100%;
+    }
+}
+
+
+@media (min-width:500px) and (max-width:600px) {
+    .item{
+        background: gray;
+        width: 90%;
+        height: 100%;
+    }
+}
+
+
+.container{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallary{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.gallary img {
+    width: 20%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+#red {
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+#green {
+    background: green;
+    width: 100px;
+    height: 100px;
+}
+
+#blue {
+    background: blue;
+    width: 100px;
+    height: 100px;
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    border: 4px solid gray;
+    opacity: 1;
+    transition: 2s all;
+}
