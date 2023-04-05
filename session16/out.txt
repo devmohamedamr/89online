@@ -1,0 +1,6 @@
+- addeventlistener
+- filter gallary 
+- bom 
+	scroll
+	setinterval
+	settimeout

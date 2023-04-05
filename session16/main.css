@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Cairo:wght@500&display=swap');
+:root{
+    --font:'Alata', sans-serif;
+    --second-font:'Alata', sans-serif;
+
+    --color:red;
+    --dark:black;
+    --light:gray;
+}
+body{
+    font-family: var(--font);
+}
+.container{
+    width:40%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallary img {
+    width: 100px;
+    height: 100px;
+}
