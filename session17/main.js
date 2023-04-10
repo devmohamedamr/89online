@@ -5,7 +5,7 @@ var todo = []
 save.onclick = function(){
     todo.push(task.value)
     task.value = ""
-    console.log(todo)
+    // console.log(todo)
     show()
 }
 
@@ -13,8 +13,20 @@ save.onclick = function(){
 function show(){
     var resText = ""
     for(var i =0;i<todo.length;i++){
-        resText += "<li>"+todo[i]+"</li>"
+        // resText += "<li>"+todo[i]+"</li> <button onclick='destroy("+i+")'>delete</button>"
+        resText += `<li> ${todo[i]} </li> <button onclick='destroy(${i})'>delete</button> <button onclick='edit(${i})'>update</button>`
     }
     res.innerHTML = resText
 }
 
+
+function destroy(index)
+{
+    todo.splice(index,1)
+    show()
+}
+
+function edit (index) { 
+    task.value = todo[index]
+    // alert()
+ }
