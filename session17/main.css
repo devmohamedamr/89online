@@ -11,11 +11,15 @@ body{
     font-family: var(--font);
 }
 .container {
-  width: 80%;
+  width: 20%;
   height: 300px;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.list {
+  width: 100%;
 }
