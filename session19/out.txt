@@ -1,0 +1,4 @@
+- crud with localstorage 
+ - sessionstroage
+ - cookies
+ - localstorage
