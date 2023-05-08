@@ -1,0 +1,18 @@
+ecma
+- var , let , const \\\\\\
+- for in , of , foreach \\\
+- template literal `` \\\\
+- destruction js \\\\\
+- Default Parameters \\\
+- js spread operator \\\\
+
+
+- function constructor  ///
+- this keyword  ///
+- arrow function
+- class
+- module
+- map 
+- set  
+----------------------------------
+map , filter , reducer , promise , callback , async , awit
